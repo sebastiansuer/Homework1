@@ -1,4 +1,4 @@
-from utils import add, subtract, multiply, divide, pow
+from utils import add, subtract, multiply, divide, power
 
 
 def test_add():
@@ -25,7 +25,7 @@ def test_divide():
     assert divide(100, 5) == 20
 
 
-def test_pow():
-    assert pow(2, 2) == 4
-    assert pow(4, 2) == 16
-    assert pow(10, 2) == 100
+def test_power():
+    assert power(2, 2) == 4
+    assert power(4, 2) == 16
+    assert power(10, 2) == 100
