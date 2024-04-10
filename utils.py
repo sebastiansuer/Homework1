@@ -21,3 +21,8 @@ def divide(x, y):
 # This function calculates x to the power of y
 def power(x, y):
     return x ** y
+
+
+# Added function that calculates the square root of x
+def square_root(x):
+    return x**0.5

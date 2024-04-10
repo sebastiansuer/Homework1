@@ -1,4 +1,4 @@
-from utils import add, subtract, multiply, divide, power
+from utils import add, subtract, multiply, divide, power, square_root
 
 
 def test_add():
@@ -29,3 +29,8 @@ def test_power():
     assert power(2, 2) == 4
     assert power(4, 2) == 16
     assert power(10, 2) == 100
+
+def test_square_root(): # This test will fail
+    assert square_root(4) == 1
+    assert square_root(9) == 1
+    assert square_root(16) == 3
