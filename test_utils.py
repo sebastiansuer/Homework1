@@ -33,4 +33,4 @@ def test_power():
 def test_square_root(): # This test will fail
     assert square_root(4) == 1
     assert square_root(9) == 1
-    assert square_root(16) == 1
+    assert square_root(16) == 3
