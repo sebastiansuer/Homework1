@@ -1,4 +1,4 @@
-from utils import add, subtract, multiply, divide, power
+from utils import add, subtract, multiply, divide, power, square_root
 
 
 def test_add():
